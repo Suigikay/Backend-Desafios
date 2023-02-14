@@ -49,8 +49,8 @@ manager.addProduct("Papas", "Bellas papas", "$50", "papas.img", "2", "20") //Agr
 // manager.addProduct("Croqueta", "Deliciosa croqueta", "$75", "croqueta.img", "1", "35") //Error por agregar producto con el mismo código
 
 console.log(manager.getProducts())
-console.log(manager.getProductsById(0)) //Encuentra producto existente
-// console.log(manager.getProductsById(3)) //Error por producto no existente
+// console.log(manager.getProductsById(0)) //Encuentra producto existente
+console.log(manager.getProductsById(3)) //Error por producto no existente
 
 
 
