@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "title": "Exfoliante AHA",
+        "description": "Exfoliante químico para piel sensible",
+        "price": "$3500",
+        "thumbnail": "AHA.img",
+        "code": "1",
+        "stock": "35"
+    },
+    {
+        "id": 1,
+        "title": "Solar SPF+50",
+        "description": "Protector solar facial",
+        "price": "$5000",
+        "thumbnail": "SPF50.img",
+        "code": "2",
+        "stock": "20"
+    }
+]
