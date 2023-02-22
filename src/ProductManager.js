@@ -31,7 +31,7 @@ class ProductManager{
       fs.promises.writeFile(this.#path, JSON.stringify([...product, newProduct]));
       this.#accum += 1;
     } else {
-      // throw new Error ("El producto ya existe");
+       throw new Error ("El producto ya existe");
     }
   }
 
